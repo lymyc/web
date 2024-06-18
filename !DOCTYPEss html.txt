@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empresa  de Dulce locura </title>
+<style>
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+  header {
+    background-color: #255;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #106;
+    padding: 10px 20px;
+  }
+   nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: #139;
+  }
+  .contenido {
+    display: none;
+    padding: 20px;
+  }
+
+</style>
+</head>
+<body>
+<header>
+  <h1>EMPRESA DE DULCE LOCURA </h1>
+</header>
+<nav>
+  <a href="#" class="opcion-menu" data-target="opcion1">Opción 1</a>
+  <a href="#" class="opcion-menu" data-target="opcion2">Opción 2</a>
+  <a href="#" class="opcion-menu" data-target="opcion3">Opción 3</a>
+</nav>
+<div class="contenido" id="opcion1">
+  <h2> FILOSOFIA </h2>
+  <p>Buscamos alimentar,deleitar y servir a nuestro planeta,siendo una empresa altamente productiv y plenamente humana  .</p>
+ 
+<img src="pavido.jpg"alt="pavido.jpg; width="300" height="300"">
+</div>
+<div class="contenido" id="opcion2">
+  <h2>VISION </h2>
+  <p>En nuestra empresa de coctel de frutas vemos al mundo donde cada bocado es una exploxion de vitalidad.Queremos ser reconocidos como el destino preferido para aquellos que busquen nutrir sus cuerpos .</p>
+
+<h3>MISION</h3>
+<p>Ofrecer cocteles frescos y de alta calidad,provenienetes de fuentes sostenibles,para sastifacer las necesidades, y promover un estilo de vida saludable en la comunidad, nos compremetemos a proporcionar un servicio excepciona</p>
+<img src="BB.jpg"alt="BB.jpg; width="300" height="300"">
+
+</div>
+<div class="contenido" id="opcion3">
+  <h2>ESTRATEGIAS </h2>
+  <p><!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empresa  de Dulce locura </title>
+<style>
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+  header {
+    background-color: #255;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #106;
+    padding: 10px 20px;
+  }
+   nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: #139;
+  }
+  .contenido {
+    display: none;
+    padding: 20px;
+  }
+
+</style>
+</head>
+<body>
+<header>
+  <h1>EMPRESA DE DULCE LOCURA </h1>
+</header>
+<nav>
+  <a href="#" class="opcion-menu" data-target="opcion1">Opción 1</a>
+  <a href="#" class="opcion-menu" data-target="opcion2">Opción 2</a>
+  <a href="#" class="opcion-menu" data-target="opcion3">Opción 3</a>
+</nav>
+<div class="contenido" id="opcion1">
+  <h2> FILOSOFIA </h2>
+  <p>Buscamos alimentar,deleitar y servir a nuestro planeta,siendo una empresa altamente productiv y plenamente humana  .</p>
+ 
+<img src="pavido.jpg"alt="pavido.jpg; width="300" height="300"">
+</div>
+<div class="contenido" id="opcion2">
+  <h2>VISION </h2>
+  <p>En nuestra empresa de coctel de frutas vemos al mundo donde cada bocado es una exploxion de vitalidad.Queremos ser reconocidos como el destino preferido para aquellos que busquen nutrir sus cuerpos .</p>
+
+<h3>MISION</h3>
+<p>Ofrecer cocteles frescos y de alta calidad,provenienetes de fuentes sostenibles,para sastifacer las necesidades, y promover un estilo de vida saludable en la comunidad, nos compremetemos a proporcionar un servicio excepciona</p>
+<img src="BB.jpg"alt="BB.jpg; width="300" height="300"">
+
+</div>
+<div class="contenido" id="opcion3">
+  <h2>ESTRATEGIAS </h2>
+  <p> DIRECTIVO</p>
+<ul>
+  <li>•	Elaboración del planteamiento del producto ya que sería un buen control de los beneficios y así promover un estilo de vida saludable a los clientes. 
+</li>
+  </ul>
+</div>
+
+<script>
+  const opcionesMenu = document.querySelectorAll('.opcion-menu');
+  opcionesMenu.forEach(opcion => {
+    opcion.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = this.getAttribute('data-target');
+      const contenidoMostrar = document.getElementById(target);
+      document.querySelectorAll('.contenido').forEach(contenido => {
+        contenido.style.display = 'none';
+      });
+      contenidoMostrar.style.display = 'block';
+    });
+  });
+</script>
+</body>
+</html>.</p>
+</div>
+
+<script>
+  const opcionesMenu = document.querySelectorAll('.opcion-menu');
+  opcionesMenu.forEach(opcion => {
+    opcion.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = this.getAttribute('data-target');
+      const contenidoMostrar = document.getElementById(target);
+      document.querySelectorAll('.contenido').forEach(contenido => {
+        contenido.style.display = 'none';
+      });
+      contenidoMostrar.style.display = 'block';
+    });
+  });
+</script>
+</body>
+</html>

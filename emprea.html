@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empresa  de Dulce locura </title>
+<style>
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+  header {
+    background-color: #255;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #106;
+    padding: 10px 20px;
+  }
+   nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: #139;
+  }
+  .contenido {
+    display: none;
+    padding: 20px;
+  }
+
+</style>
+</head>
+<body>
+<header>
+  <h1>EMPRESA DE DULCE LOCURA </h1>
+</header>
+<nav>
+  <a href="#" class="opcion-menu" data-target="opcion1">Opción 1</a>
+  <a href="#" class="opcion-menu" data-target="opcion2">Opción 2</a>
+  <a href="#" class="opcion-menu" data-target="opcion3">Opción 3</a>
+   <a href="#" class="opcion-menu" data-target="opcion4">Opción 4</a>
+ <a href="#" class="opcion-menu" data-target="opcion5">Opción 5</a>
+<a href="#" class="opcion-menu" data-target="opcionl">Opción l</a>
+
+
+</nav>
+<div class="contenido" id="opcion1">
+  <h2> FILOSOFIA </h2>
+  <p>Buscamos alimentar,deleitar y servir a nuestro planeta,siendo una empresa altamente productiva y plenamente humana  .</p>
+ 
+<img src="pavido.jpg"alt="pavido.jpg; width="300" height="300"">
+</div>
+<div class="contenido" id="opcion2">
+  <h2>VISION </h2>
+  <p>En nuestra empresa de coctel de frutas vemos al mundo donde cada bocado es una exploxion de vitalidad.Queremos ser reconocidos como el destino preferido para aquellos que busquen nutrir sus cuerpos .</p>
+
+<h3>MISION</h3>
+<p>Ofrecer cocteles frescos y de alta calidad,provenienetes de fuentes sostenibles,para sastifacer las necesidades, y promover un estilo de vida saludable en la comunidad, nos compremetemos a proporcionar un servicio excepciona</p>
+<img src="BB.jpg"alt="BB.jpg; width="300" height="300"">
+
+</div>
+<div class="contenido" id="opcion3">
+  <h2>ESTRATEGIAS </h2>
+  <p>DIRECTIVO: </p>
+<ul>
+<li>
+Elaboración del planteamiento del producto ya que sería un buen control de los beneficios y así promover un estilo de vida saludable a los clientes.
+</li>
+<li> 
+Tener un control sobre los productos a ofrecer ya que deben ser frescos y de excelente calidad, debido a los costos que pueden afectar a la producción, de acuerdo con el análisis de cada ganancia de los resultados y obtener una evolución financiera ya que mostrara una información confiable.
+</li>
+<p>MEDIOS:</p>
+<li>
+Definir cada objetivo de nuestra empresa los cuales deben ser muy específicos, alcanzables y limitados en el tiempo. Incrementar la variedad de los cocteles en un 25% en los próximos 2 meses o incrementar las ventas en un 65% estos 4 meses.
+</li>
+<li>
+Conocer al público, esto se llevará a cabo realizando investigaciones de mercado y de esta manera estudiar los productos más consumidos por el público. Cuanto más comprendamos a nuestra audiencia serán más precisos nuestros esfuerzos publicitarios.
+</li>
+<p>OPERACIONAL</p>
+<li>
+Que nuestra empresa cuente con los mejores precios para nuestros clientes y así generar ventas rápidas y utilizar las distintas redes sociales para marketing
+</li>
+</ul>
+<img src="Estrategias.jpg"alt="Estrategias.jpg; width="700" height="500"">
+
+
+</div>
+<div class="contenido" id="opcion4">
+  <h2>TECNICA DE GRAFICA DE GANTT  </h2>
+<img src="grafica.jpg"alt="grafica.jpg; width="700" height="500"">
+<h2> COSTOS DE LA EMPRESA</h2>
+<img src="COSTOS.jpg"alt="COSTOS.jpg; width="800" height="800"">
+
+
+</div>
+
+<div class="contenido" id="opcion5">
+  
+<p>
+
+</p>
+
+
+  <h2>ORGANIGRAMA</h2>
+ <img src="orgi.jpg"alt="orgi.jpg; width="700" height="500"">
+ <h2>DIAGRAMA DE FLUJO</h2>
+<img src="diagra.jpg"alt="diagra.jpg; width="700" height="500"">
+
+<h2>MAQUETA DE ADMINISTRACION</h2>
+<img src="maq1.jpg"alt="maq1.jpg; width="300" height="300"">
+<img src="klo.jpg"alt="klo.jpg; width="300" height="300"">
+
+ <h2>TRIPTICO Y DIPTICO  </h2>
+<img src="triptico.jpg"alt="triptico.jpg; width="700" height="500"">
+<img src="diptico.jpg"alt="diptico.jpg; width="700" height="500"">
+
+
+
+
+
+
+</div>
+
+
+<script>
+  const opcionesMenu = document.querySelectorAll('.opcion-menu');
+  opcionesMenu.forEach(opcion => {
+    opcion.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = this.getAttribute('data-target');
+      const contenidoMostrar = document.getElementById(target);
+      document.querySelectorAll('.contenido').forEach(contenido => {
+        contenido.style.display = 'none';
+      });
+      contenidoMostrar.style.display = 'block';
+    });
+  });
+</script>
+</body>
+<a href="index.html">Regresar a index</a>
+<p> segunda hoja
+<a href="segunda hoja.html">Ir a segunda hoja</a>
+
+</html>

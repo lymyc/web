@@ -1,0 +1,24 @@
+
+1.- Ejecutar el fichero "FlashPro_12_LS4.exe", esto descomprimira una carpeta en el escritorio, ir a "Flash Pro CS6\Adobe Flash Professional CS6\Set-up.exe" para empezar la instalación (normalmente debe arrancar automaticamente luego de terminar la descompresión).
+
+2.- Desconectar el internet.
+
+3.- Instalar el programa empleando alguno de los siguientes seriales:
+
+SERIE......: 1325-0949-2080-9819-3777-3230
+SERIE......: 1325-0160-5283-9851-2671-8951
+
+4.- Cuando salga un aviso, presionar en "Conectarse más tarde".
+
+5.- Seleccionar el programa a instalar, al finalizar no iniciar el programa. Ir a la carpeta "amtlib.dll" y copiar la libreria (dll) adecuada en "C:\Archivos de programa\Adobe\Adobe Flash CS6" reemplazar.
+
+Listo !!!!
+
+Nota. Analisis en VirusTotal: https://www.virustotal.com/file/e1189544e7fe546133d119a141f1d1ec74a1fed2317c7dfb211c2b779887c03e/analysis/1335325530/
+				https://www.virustotal.com/file/f7c93c9f262a94360ecef3725ed20dc3b43bfad4243ab3fdaf5b8e56222e3f54/analysis/
+
+      Usarlo bajo su responsabilidad.
+
+=================================================
+Visita: www.mundomanuales.com
+=================================================

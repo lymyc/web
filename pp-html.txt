@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Desplegable</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #444;
+    padding: 10px 20px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  .contenido {
+    display: none;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Menú Desplegable</h1>
+</header>
+<nav>
+  <a href="#" class="opcion-menu" data-target="opcion1">Opción 1</a>
+  <a href="#" class="opcion-menu" data-target="opcion2">Opción 2</a>
+  <a href="#" class="opcion-menu" data-target="opcion3">Opción 3</a>
+</nav>
+<div class="contenido" id="opcion1">
+  <h2>Contenido Opción 1</h2>
+  <p>Esta es la información de la Opción 1.</p>
+</div>
+<div class="contenido" id="opcion2">
+  <h2>Contenido Opción 2</h2>
+  <p>Esta es la información de la Opción 2.</p>
+</div>
+<div class="contenido" id="opcion3">
+  <h2>Contenido Opción 3</h2>
+  <p>Esta es la información de la Opción 3.</p>
+</div>
+
+<script>
+  const opcionesMenu = document.querySelectorAll('.opcion-menu');
+  opcionesMenu.forEach(opcion => {
+    opcion.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = this.getAttribute('data-target');
+      const contenidoMostrar = document.getElementById(target);
+      document.querySelectorAll('.contenido').forEach(contenido => {
+        contenido.style.display = 'none';
+      });
+      contenidoMostrar.style.display = 'block';
+    });
+  });
+</script>
+</body>
+</html>

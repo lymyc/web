@@ -1,0 +1,13 @@
+
+
+
+<table border="3"> 
+      <tr>
+         <td>Informacion general </td>
+         
+     </tr> 
+     <tr>
+         <td>Emsad</td>
+     </tr>
+      
+</table>
